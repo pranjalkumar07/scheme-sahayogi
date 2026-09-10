@@ -50,7 +50,7 @@ const [aiError, setAiError] = React.useState("");
     setAiMissing([]);
 
     try {
-      const response = await fetch("http://localhost:3001/api/ask-sahayogi", {
+      const response = await fetch("https://scheme-sahayogi.onrender.com/api/ask-sahayogi", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
